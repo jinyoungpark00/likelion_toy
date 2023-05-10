@@ -55,7 +55,7 @@ def post_list(request):
         )
 
 
-@require_http_methods("[GET], [POST]")
+@require_http_methods("[GET], [DELETE]")
 def post(request, id):
     if request.method == "GET":
         post = get_object_or_404(Post_list, pk=id)
