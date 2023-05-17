@@ -19,7 +19,7 @@ def get_post_list_all(request):
     for post in posts:
         post_json = {
             "post_id": post.post_id,
-            "author": post.author,
+            "authorr": post.author,
             "title": post.title,
             "content": post.content,
         }
