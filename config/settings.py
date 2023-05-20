@@ -81,6 +81,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5500",
     "http://127.0.0.1:5500",
     "http://likelion-toy.kro.kr:5500",
+    "http://xn--3o2bl3b89a.xn--yq5b.xn--3e0b707e:5500",
+    "http://xn--3o2bl3b89a.xn--yq5b.xn--3e0b707e",
 ]
 
 ROOT_URLCONF = "config.urls"
